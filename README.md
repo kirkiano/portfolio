@@ -1,5 +1,1 @@
-# Portfolio
-
-Welcome to this small selection of my work.
-
-READMEs are included in `code` and `writings`.
+# Please navigate to [kirkiano.github.io](https://kirkiano.github.io).
