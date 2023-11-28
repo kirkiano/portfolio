@@ -132,7 +132,7 @@ fn main() {
 This is trivial next to the chore we faced at the outset, of re-adding and
 re-deleting log statements.
 
-Mission accomplished.
+Mission accomplished!
 
 Moreover when we need to change `f`'s implementation details, we do so in the
 `impl F for C`, whereas when we need to change the log statements, we do so in
@@ -144,14 +144,14 @@ recompilation; see [here](https://stackoverflow.com/a/44349724) for example).
 
 The code has thus become not only easier with respect to logging, but also
 easier to reason about, safer to modify, and so more likely to run right. The
-benefits may seem modest here, but in more intricate scenarios, or when
-reapplied across a large codebase, the technique can spell salvation.
+benefits may seem small here, but the wrapping technique can be generalized
+beyond logging. In more intricate scenarios, or when reapplied across a large
+codebase, it can spell salvation.
 
-Bear in mind however that every rule has its exceptions. "Log-wrapping" is not
-always suitable, and separating concerns is not always advisable. Decide each
-case by good common sense.
+Bear in mind however that every rule has its exceptions. Wrapping is not always
+suitable, and separating concerns is sometimes inadvisable. Decide each case by
+common sense.
 
 I hope this helps! If you'd like the above demo code, it's available
 [here](https://github.com/kirkiano/log-wrapper-demo).
-
-Happy coding! :sunglasses:
+Meanwhile, happy coding... :smiley:
