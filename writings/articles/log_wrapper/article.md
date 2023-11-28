@@ -151,4 +151,7 @@ Bear in mind however that every rule has its exceptions. "Log-wrapping" is not
 always suitable, and separating concerns is not always advisable. Decide each
 case by good common sense.
 
-I hope this helps...and happy coding!
+I hope this helps! If you'd like the above demo code, it's available
+[here](https://github.com/kirkiano/log-wrapper-demo).
+
+Happy coding! :sunglasses:
