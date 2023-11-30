@@ -1,3 +1,3 @@
-# Code
+# Code samples
 
-Samples of my software. Feedback is welcome.
+Small extracts from some of my repos. Feedback welcome.
